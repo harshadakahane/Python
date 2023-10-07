@@ -136,4 +136,22 @@ print(setdata)
 
 player = {7:"Mahi", 18:"Virat", 45:"Rahul"}
 print(player)
+print()
+
+
+#Bytes Datatype
+
+listdata=[10,20,30,40,50]
+bytedata = bytes(listdata)
+print(bytedata)
+print(type(bytedata))
+print()
+
+
+# byte data chi range ( 0 to 255) aste ya pudhe jr data gela tr error yeto
+#byte immutable ye apn value change ny kru shakt
+# krycha asel tr apn bytearray use krto
+bytesdata = bytearray(listdata)
+for i in bytesdata:
+    print(i)
 
